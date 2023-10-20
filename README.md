@@ -1,8 +1,8 @@
-# _Language Suggester_
+# Language Suggester
 
 #### By **Daisy Orozco**
 
-#### _A page that suggests what type of language you should study/learn _
+####  A page that suggests what type of language you should study/learn 
 
 ## Technologies Used
 
@@ -32,4 +32,4 @@ This webpage was created using HTML, CSS and JavaScript to program a page where 
 ## License
  MIT
 
-Copyright (c) _2023_ _Daisy Orozco_
+Copyright (c) 2023 Daisy Orozco
