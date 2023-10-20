@@ -10,4 +10,15 @@ submitButton.addEventListener("click", () => {
     const answer4 = document.getElementById("question4").value;
     const answer5 = document.getElementById("question5").value}
     
+    let suggestedLanguage = "";
+
+  if (answer1 === "pancakes") {
+    suggestedLanguage = "Python";
+  } else if (answer2 === "no") {
+    suggestedLanguage = "JavaScript";
+  } else if (answer3 === "no") {
+    suggestedLanguage = "Ruby";
+  } else if (answer4 === "dark") {
+    suggestedLanguage = "C#";
+  } else if (answer5 === "cats") {
     )
