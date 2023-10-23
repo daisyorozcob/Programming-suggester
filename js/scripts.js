@@ -1,4 +1,4 @@
-const form = document.getElementById("survey-form");
+const form = document.getElementById("suggest-form");
 const submitButton = document.getElementById("submit-button");
 const resultContainer = document.getElementById("result");
 const suggestion = document.getElementById("language-suggestion");
@@ -13,15 +13,15 @@ submitButton.addEventListener("click", () => {
 
   let suggestedLanguage = "";
 
-  if (answer1 === "pancakes") {
+  if (answer1 === "Yes") {
     suggestedLanguage = "Python";
-  } else if (answer2 === "no") {
+  } else if (answer2 === "Treat") {
     suggestedLanguage = "JavaScript";
-  } else if (answer3 === "no") {
+  } else if (answer3 === "Witch") {
     suggestedLanguage = "Ruby";
-  } else if (answer4 === "dark") {
+  } else if (answer4 === "NoTooScary") {
     suggestedLanguage = "C#";
-  } else if (answer5 === "cats") {
+  } else if (answer5 === "Yes") {
     suggestedLanguage = "Swift";
   } else {
     suggestedLanguage = "Java";

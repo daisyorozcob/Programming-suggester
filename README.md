@@ -13,7 +13,7 @@
 
 ## Description
 
-This webpage was created using HTML, CSS and JavaScript to program a page where a user can answer question and gets an output of what language they should consider learning.
+This halloween themed webpage was created using HTML, CSS and JavaScript to program a page where a user can answer question and gets an output of what language they should consider learning.
 
 ## Setup/Installation Requirements
 

@@ -8,37 +8,44 @@
     <title>Language Suggester</title>
 </head>
 <body>
-    <h1>Language Suggester!</h1>
+    <h1>Halloween Language Suggester!</h1>
     <form id="suggest-form">
-        <label for ="question.1"> Question 1: </label>
+        <label for="question1">Question 1: Do You Like Halloween?</label>
         <select id="question1">
-            <option value=""></option>
-            <option value=""></option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
         </select>
-    <label for="question.2"> Question 2:</label>
-    <select id="question.2">
-        <option value=""></option>
-        <option value=""></option>
-    </select>
-    <label for="question.2"> Question 2:</label>
-    <select id="question.2">
-        <option value=""></option>
-        <option value=""></option>
-    </select>
-    <label for="question.4">Question 4:</label>
-            <select id="question.4">
-               <option value=""></option>
-               <option value=""></option>
-               <option value=""></option>
-            </select>
-            <label for="question.5">Question 5:</label>
-            <select id="question.5">
-               <option value=""></option>
-               <option value=""></option>
-               <option value=""></option>
-            </select>
-            <button type="button" id="submit-button">Submit</button>
-         </form>
-    
+
+        <label for="question2">Question 2: Trick or Treat</label>
+        <select id="question2">
+            <option value="Trick">Trick</option>
+            <option value="Treat">Treat</option>
+        </select>
+
+        <label for="question3">Question 3: Ghost or Witches</label>
+        <select id="question3">
+            <option value="Ghost">Ghost</option>
+            <option value="Witch">Witch</option>
+        </select>
+
+        <label for="question4">Question 4: Horror Movies</label>
+        <select id="question4">
+            <option value="NoTooScary">No Too Scary!</option>
+            <option value="YesOfCourse">Yes Of Course</option>
+            <option value="OnlyIfSomeoneIsWithMe">Only if someone is with me</option>
+        </select>
+
+        <label for="question5">Question 5: Will You Carve a Pumpkin This Season?</label>
+        <select id="question5">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="Perhaps">Perhaps</option>
+        </select>
+        <button type="button" id="submit-button">Submit</button>
+    </form>
+    <div id="result" class="hidden">
+        <h2> Based on The Questions Answered You Should Learn:</h2>
+        <p id="lang-suggest"></p>
+    </div>
 </body>
 </html>
